@@ -1,4 +1,19 @@
+body {
+    background-image: url(../images/mainbackground.png);
+}
 
+header {
+    background-color: white;
+}
+
+main {
+    background-color: white;
+}
+
+#myName {
+    background-color: #4aaaa5;
+    width: fit-content;
+}
 
 
 
