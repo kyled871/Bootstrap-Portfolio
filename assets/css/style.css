@@ -1,6 +1,4 @@
-html {
-    height: 100%;
-}
+
 
 body {
     background-image: url(../images/mainbackground.png);
@@ -19,10 +17,14 @@ main {
 a {
     color: #4aaaa5;
 }
+#index-footer {
+    position: absolute;
+}
 
 footer {
     width: 100%;
-    position: absolute;
+    position: static;
+    margin-top: 50px;
     bottom: 0;
     border-top: #4aaaa5 solid 5px;
 }
@@ -66,6 +68,16 @@ footer {
 
 #aboutMe {
     padding-top: 15px;
+}
+
+#projects-container {
+    clear: both;
+    padding: 0 0 30px 15px;
+}
+
+#proj-row {
+    margin-bottom: 15px;
+    padding-left: 10px;
 }
 
 .top-buffer {
