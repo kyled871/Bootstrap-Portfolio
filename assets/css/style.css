@@ -1,19 +1,78 @@
+html {
+    height: 100%;
+}
+
 body {
     background-image: url(../images/mainbackground.png);
+    height: 100%;
 }
 
 header {
     background-color: white;
+    border-bottom: #dfdfdf solid 2px;
 }
 
 main {
     background-color: white;
 }
 
-#myName {
-    background-color: #4aaaa5;
-    width: fit-content;
+a {
+    color: #4aaaa5;
 }
 
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: #4aaaa5 solid 5px;
+}
 
+#myPic{
+    height: 230px;
+    width: 280px;
+    margin-bottom: 15px;
+}
+
+#mainsection {
+    background-color: white;
+}
+
+#myName {
+    background-color: #4aaaa5;
+    text-align: center;
+    color: white;
+}
+
+#about {
+    text-align: center;
+    margin-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#portfolio {
+    text-align: center;
+    margin-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#contact {
+    text-align: center;
+    margin-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#aboutMe {
+    padding-top: 15px;
+}
+
+.top-buffer {
+    margin-top: 40px;
+}
+
+.myWords {
+    margin-left: 5px;
+}
 

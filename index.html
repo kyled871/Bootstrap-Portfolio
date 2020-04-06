@@ -11,35 +11,65 @@
 </head>
 
 <body>
+
     <header>
-        <div class="container">
-            <div class="row">
-    
-                <div class="col-md-8">
-                   <div class="nav-link">
-                       <div class="h2" id="myName">
-                        Kyle Davis
-                       </div>
-                   </div> 
-                </div>
-            
-                <div class="col-md-4">
-                    <div class="row">
-                        <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                        <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>        
-                    </div>
-                </div>
-
-                <main>
-                    <div class="container">
-
-                    </div>
-                </main>
-    
+        <div class="row">
+            <div class="col-2">
             </div>
-        </div>  
+            <div class="col-2" id="myName">
+                <h2>Kyle Davis</h2>
+            </div>
+
+            <!-- navigation bar-->
+                <div class="col-3">
+                </div>
+                <div class="col-1" id="about">
+                    <a href="#">About</a>
+                </div>
+                <div class="col-1" id="portfolio">
+                    <a href="#">Portfolio</a>
+                </div>
+                <div class="col-1" id="contact">
+                    <a href="#">Contact</a>
+                </div>
+                <div class="col-2">
+                </div>
+        </div>
     </header>
+
+    <div>
+        <div class="container" id="mainsection">
+            <!--https://stackoverflow.com/questions/10085723/twitter-bootstrap-add-top-space-between-rows-->
+            <div class="row top-buffer">
+                <div class="col-12" id="aboutMe">
+                    <h2>About Me</h2>
+                    <hr size="5">
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col-3">
+                    <img src="assets/images/self-portrait.jpg" alt="" id="myPic">
+                </div>
+        
+                <div class="col-7">
+                    <p class="myWords">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, debitis tempora et veniam suscipit eius officia quo ipsa ea odio? Nihil atque, maxime tempora cum voluptatibus pariatur ipsa. Consectetur, aperiam!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ullam perspiciatis illo veritatis quibusdam soluta, nemo molestiae sequi velit beatae, aliquam deleniti, nisi iusto tempore quia debitis modi unde quisquam.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--https://startbootstrap.com/snippets/sticky-footer-flexbox/-->
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+          <small>Copyright &copy;</small>
+        </div>
+      </footer>
+
 
 </body>
 </html>
