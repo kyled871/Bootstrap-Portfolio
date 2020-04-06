@@ -88,3 +88,16 @@ footer {
     margin-left: 5px;
 }
 
+#myForm {
+    margin-left: 10px;
+    padding-bottom: 25px;
+}
+
+#messageBox {
+    width: 400px;
+}
+
+.btn-primary {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}

@@ -21,7 +21,7 @@
             </div>
 
             <!-- navigation bar-->
-                <div class="col-3">
+            <div class="col-3">
                 </div>
                 <div class="col-1" id="about">
                     <a href="index.html">About</a>
@@ -33,7 +33,7 @@
                     <a href="contact.html">Contact</a>
                 </div>
                 <div class="col-2">
-                </div>
+            </div>
         </div>
     </header>
 
@@ -47,24 +47,30 @@
                 </div>
             </div>
         
-            <div class="row">
-                <div class="col-3">
-                    <img src="assets/images/self-portrait.jpg" alt="" id="myPic">
-                </div>
-        
-                <div class="col-7">
-                    <p class="myWords">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, debitis tempora et veniam suscipit eius officia quo ipsa ea odio? Nihil atque, maxime tempora cum voluptatibus pariatur ipsa. Consectetur, aperiam!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ullam perspiciatis illo veritatis quibusdam soluta, nemo molestiae sequi velit beatae, aliquam deleniti, nisi iusto tempore quia debitis modi unde quisquam.
-                    </p>
-                </div>
-            </div>
+            <div class="row" id="myForm">
+                <form>
+                    <div class="form-group">
+                        <label for="InputName">Name</label>
+                        <input type="text" class="form-control" id="nameInput" aria-describedby="nameHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelpplz">
+                    </div>
+                    <div class="form-group" class="input-large">
+                        <label for="messageBox">Message</label>
+                        <textarea type="text" class="form-control" id="messageBox" rows="3"></textarea>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
         </div>
     </div>
 
 
     <!--https://startbootstrap.com/snippets/sticky-footer-flexbox/-->
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <footer id="index-footer" class="py-4 bg-dark text-white-50">
         <div class="container text-center">
           <small>Copyright &copy;</small>
         </div>
